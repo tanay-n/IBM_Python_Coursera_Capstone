@@ -19,6 +19,7 @@ Link to the neighborhood and postal code information for each city: <br>
 
 Link to the latitude and longitude of every zip code in the united states: <br>
 - https://gist.github.com/erichurst/7882666 <br>
+
 (The geospatial-coordinates for Toronto are taken from the file provided in the previous project - 'Geospatial_Coordinates') <br>
 This information will allow the use of Foursquare API to gather venue categories for the analysis.
 
