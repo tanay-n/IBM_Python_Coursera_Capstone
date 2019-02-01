@@ -1,9 +1,4 @@
-# Capstone Report
-
-Descriptive Title
-Using Foursquare API and DB-Scan to direct new expansion opportunity for a small food conglomerate.
-
-
+# Capstone_Report
 
 ## Introduction
 #### Problem & Background 
@@ -40,8 +35,8 @@ The DB-Scan machine learning algorithm was implemented with an epsilon value of 
 ## Results
 On the initial run with the eps set to 0.5, the number of clusters formed were more or less the same with each city having 1 cluster (labelled "0"), but unlike New York City, Toronto and San Francisco have a few neighborhoods that are considered to be noise and not part of a cluster (labelled "-1").
 
-From the compiled results, the count of the types of venue categories and the names of the neighborhoods that were not clustered at the end of each run :
-Toronto <br>
+From the compiled results, the count of the types of venue categories and the names of the neighborhoods that were not clustered at the end of each run : <br>
+##### Toronto <br>
 5 Pizza place/Restaurant/Deli / Bodega/Sandwich Place <br>
 3 Café/Coffee shop/Bakery/Donut shop <br>
 1 pub <br>
@@ -69,7 +64,7 @@ Harbod, UofT <br>
 Union Station, Harbourfront East, Toronto Islands <br>
 Little Portugal, Trinity <br>
 	
-New York City <br>
+#### New York City <br>
 8 Pizza place/Restaurant/Deli / Bodega/Sandwich Place <br>
 2 Café/Coffee shop/Bakery/Donut shop <br>
 
@@ -80,7 +75,7 @@ New York City <br>
 8 Pizza place/Restaurant/Deli / Bodega/Sandwich Place <br>
 2 Café/Coffee shop/Bakery/Donut shop <br>
 	
-San Francisco <br>
+#### San Francisco <br>
 0 Pizza place/Restaurant/Deli / Bodega/Sandwich Place <br>
 5 Café/Coffee shop/Bakery/Donut shop <br>
 1 park <br>
