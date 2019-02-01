@@ -13,12 +13,13 @@ To solve this problem, the venue categories for each location in the neighborhoo
 
 #### Source
 Link to the neighborhood and postal code information for each city: <br>
-Toronto - https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M <br>
-New York City - https://www.health.ny.gov/statistics/cancer/registry/appendix/neighborhoods.htm <br>
-San  Francisco - http://www.healthysf.org/bdi/outcomes/zipmap.htm <br>
+- Toronto - https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M <br>
+- New York City - https://www.health.ny.gov/statistics/cancer/registry/appendix/neighborhoods.htm <br>
+- San  Francisco - http://www.healthysf.org/bdi/outcomes/zipmap.htm <br>
+
 Link to the latitude and longitude of every zip code in the united states: <br>
-https://gist.github.com/erichurst/7882666 <br>
-(The geospatial-coordinates for Toronto are taken from the file provided in the previous project named 'Geospatial_Coordinates') <br>
+- https://gist.github.com/erichurst/7882666 <br>
+(The geospatial-coordinates for Toronto are taken from the file provided in the previous project - 'Geospatial_Coordinates') <br>
 This information will allow the use of Foursquare API to gather venue categories for the analysis.
 
 ## Methodology
@@ -36,7 +37,7 @@ The DB-Scan machine learning algorithm was implemented with an epsilon value of 
 On the initial run with the eps set to 0.5, the number of clusters formed were more or less the same with each city having 1 cluster (labelled "0"), but unlike New York City, Toronto and San Francisco have a few neighborhoods that are considered to be noise and not part of a cluster (labelled "-1").
 
 From the compiled results, the count of the types of venue categories and the names of the neighborhoods that were not clustered at the end of each run : <br>
-##### Toronto <br>
+#### Toronto <br>
 5 Pizza place/Restaurant/Deli / Bodega/Sandwich Place <br>
 3 Café/Coffee shop/Bakery/Donut shop <br>
 1 pub <br>
